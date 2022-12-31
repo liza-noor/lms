@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Welcome #{name}
+  p Req No# #{regNo}
+  div
+    button  View Courses
+  div
+    button  View Marks
+  div
+    button  View Assignments
+  div
+    button  View Quizess
+  div
+    button  Logout
